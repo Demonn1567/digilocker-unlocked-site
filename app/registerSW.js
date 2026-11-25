@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/digilocker-unlocked-site/app/sw.js', { scope: '/digilocker-unlocked-site/app/' })})}
