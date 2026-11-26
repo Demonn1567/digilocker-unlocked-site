@@ -1,0 +1,1 @@
+var e=new Set;function t(t,n={}){let r={name:t,at:Date.now(),data:n};for(let t of e)t(r)}function n(t){return e.add(t),function(){e.delete(t)}}export{n,t};
